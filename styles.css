@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.global {
+  display: flex;
+  position: relative;
+  margin: auto;
+  background-color: #512DA8;
+  align-items: center;
+  height: 678px; }
+
+.title {
+  display: flex;
+  position: absolute;
+  color: blue;
+  width: 900px;
+  align-content: right;
+  color: #FFFFFF;
+  margin: -120px auto auto 300px;
+  font-size: 40px; }
+
+.section {
+  display: flex;
+  position: relative;
+  margin-top: 20px; }
+  .section__instruction {
+    display: flex;
+    position: absolute;
+    margin: -80px auto auto 340px;
+    width: 800px;
+    font-size: 30px; }
+  .section__restriction {
+    display: flex;
+    position: absolute;
+    margin: -40px auto auto 550px;
+    width: 600px;
+    font-size: 20px; }
+
+.input {
+  display: flex;
+  position: absolute;
+  margin: 0px auto auto 600px;
+  height: 40px;
+  font-size: 15px; }
+
+.button {
+  display: flex;
+  position: absolute;
+  margin: 80px auto auto 620px;
+  height: 45px;
+  width: 150px;
+  font-size: 25px;
+  padding: 5px 20px 5px 35px;
+  border-radius: 10px;
+  background-color: #212121;
+  border-color: #212121;
+  color: #512DA8;
+  cursor: pointer; }
+
+.button:hover {
+  background-color: #FF4081;
+  border-color: #FF4081; }
+
+/*# sourceMappingURL=styles.css.map */
